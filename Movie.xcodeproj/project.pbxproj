@@ -35,16 +35,6 @@
 			path = Movie;
 			sourceTree = "<group>";
 		};
-		AF5AD1FD2D4A60FA0048893B /* MovieTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MovieTests;
-			sourceTree = "<group>";
-		};
-		AF5AD2072D4A60FA0048893B /* MovieUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MovieUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				AF5AD1EC2D4A60F90048893B /* Movie */,
-				AF5AD1FD2D4A60FA0048893B /* MovieTests */,
-				AF5AD2072D4A60FA0048893B /* MovieUITests */,
 				AF5AD1EB2D4A60F90048893B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				AF5AD1FC2D4A60FA0048893B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				AF5AD1FD2D4A60FA0048893B /* MovieTests */,
-			);
 			name = MovieTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				AF5AD2062D4A60FA0048893B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				AF5AD2072D4A60FA0048893B /* MovieUITests */,
 			);
 			name = MovieUITests;
 			packageProductDependencies = (
@@ -395,7 +377,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Movie/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Movie\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -423,7 +405,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Movie/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Movie\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
