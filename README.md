@@ -79,5 +79,3 @@ The app has potential for growth with features like:
 
 ---
 
-This app combines functionality with a user-friendly interface, providing movie enthusiasts with an engaging platform to discover and share their favorite films.
-
